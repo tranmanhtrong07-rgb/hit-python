@@ -2,7 +2,6 @@
 
 Python là ngôn ngữ thông dịch vì nó chạy trực tiếp mã nguồn thông qua trình thông dịch, không cần biên dịch thành mã máy trước. Python thực thi từng dòng mã, nếu gặp lỗi trong chương trình thì sẽ dừng tại dòng xảy ra lỗi
 
----
 
 # Bài 2
 
@@ -34,7 +33,6 @@ Từ điển là một cấu trúc dữ liệu lưu trữ các cặp **khóa - g
 
 Tập hợp là một cấu trúc dữ liệu chứa các phần tử **không trùng lặp**. Các phần tử được đặt trong dấu ngoặc nhọn `{}`
 
----
 
 ## Các toán tử
 
@@ -83,7 +81,6 @@ Tập hợp là một cấu trúc dữ liệu chứa các phần tử **không t
 - `is`: Trả về `True` nếu hai biến cùng tham chiếu đến một đối tượng
 - `is not`: Trả về `True` nếu hai biến không cùng tham chiếu đến một đối tượng
 
----
 
 ## Mệnh đề điều kiện và vòng lặp
 
@@ -100,7 +97,6 @@ Tập hợp là một cấu trúc dữ liệu chứa các phần tử **không t
 - `break`: Dừng vòng lặp.
 - `continue`: Bỏ qua lần lặp hiện tại và chuyển sang lần lặp tiếp theo.
 
----
 
 ## Kiểu dữ liệu True, False
 
