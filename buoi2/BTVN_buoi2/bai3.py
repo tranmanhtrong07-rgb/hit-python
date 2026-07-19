@@ -19,5 +19,6 @@ else:
     for i in range(2, int((math.sqrt(n) + 1))):
         if(n % i != 0):
             print('n la so nguyen to')
+            break
         else:
             print('n khong phai so nguyen to')
