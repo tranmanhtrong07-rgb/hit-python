@@ -17,12 +17,12 @@ for i in range(n):
     ten = input('ten sam pham: ')
     #nhap gia san pham
     while True:
-        gia = input('gia: ')
+        gia = float(input('gia: '))
         if(gia>0):
             break
     #nhap so luong san pham
     while True:
-        so_luong = input('so luong san pham')
+        so_luong = int(input('so luong san pham: '))
         if(so_luong>=0):
             break
 
@@ -45,6 +45,24 @@ print('San pham co gia tri lon nhat:', sp_gtri_max)
 print('gia:', max_sp)
 #tim san pham sap het hang
 sp_het = product[0]
-con = sp_het(3)
+con = sp_het[3]
+print('san pham sap het hang:')
 for sp in product:
-    
+    if(con<5):
+        print(sp_het)
+#tim sp theo ma
+ma_tim = input('nhap ma san pham: ')
+tim = False
+for sp in product:
+    if(sp[0]==ma_tim):
+        print('thong tin san pham: ')
+        print(sp)
+        tim = True
+        break
+if not tim:
+    print('khong tim thay san pham')
+#tong gia tri kho
+tong = 0
+for sp in product:
+    tong += sp[2] * sp[3]
+print('tong gia tri kho:', tong)
