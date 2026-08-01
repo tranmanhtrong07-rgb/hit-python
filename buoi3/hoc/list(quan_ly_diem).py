@@ -1,9 +1,9 @@
-n = float(input())
+n = int(input())
 while(n<0 and n>10):
-    n = float(input())
+    n = int(input())
 lst = []
 for i in range(n):
-    lst.append(float(input()))
+    lst.append(int(input()))
 
 tong = 0
 for i in lst:
